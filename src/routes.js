@@ -1,7 +1,7 @@
-import CommissionForm from './components/CommissionForm.vue'
-import CommissionList from './components/CommissionList.vue'
+import OrderForm from './components/OrderForm.vue'
+import OrderList from './components/OrderList.vue'
 
 export const routes = [
-    { path: '/', component: CommissionForm },
-    { path: '/list', component: CommissionList }
+    { path: '/', component: OrderForm },
+    { path: '/list', component: OrderList }
 ];

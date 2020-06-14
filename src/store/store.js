@@ -1,14 +1,14 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 
-import commissionForm from './modules/CommissionForm';
-import commissionList from './modules/CommissionList';
+import orderForm from './modules/OrderForm';
+import orderList from './modules/OrderList';
 
 Vue.use(Vuex);
 
 export default new Vuex.Store({
     modules: {
-        commissionForm,
-        commissionList
+        orderForm,
+        orderList
     }
 });
