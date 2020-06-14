@@ -10,7 +10,7 @@ const getters = {
 
 const mutations = {
     [types.MUTATE_ADD_TO_ORDER](state, addition) {
-        if (addition.quantity < 1) return alert('Nieprawidłowe dane');
+        if (addition.quantity < 1 || addition.patient == '') return alert('Nieprawidłowe dane');
 
         const orderId = `${addition.patient}_${addition.medicine}_${addition.dispenseHour}_${addition.ward}_${addition.dispenseDate}`.replace(/ /g, "_")
 

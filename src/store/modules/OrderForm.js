@@ -14,7 +14,7 @@ const state = {
         medicine: orderOptions.medicines[0],
         dispenseHour: orderOptions.dispenseHours[0],
         ward: orderOptions.wards[0],
-        patient: orderOptions.patients[0],
+        patient: '',
         dispenseDate: new Date().toDateInputValue(),
         quantity: 1
     }

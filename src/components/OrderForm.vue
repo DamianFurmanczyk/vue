@@ -6,10 +6,8 @@
 
 <div class="col-10 col-md-5 offset-1 mt-2">
   <div class="form-group">
-    <label for="patient">Pacjent:</label>
-    <select v-model="orderFormState.patient" class="form-control" id="patient">
-        <option v-for="patient in orderOptions.patients" v-bind:key="patient"> {{patient}} </option>
-    </select>
+    <label for="patient">Imię, nazwisko oraz pesel pacjenta:</label>
+    <input v-model="orderFormState.patient" type="text" class="form-control" id="patient">
   </div>
 </div>
 
